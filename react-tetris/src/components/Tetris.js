@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// DO I NEED THIS??? it is connected to the startgame
 import { createStage } from "../gameHelpers";
 
 //Styled Components
