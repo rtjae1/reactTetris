@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // DO I NEED THIS??? it is connected to the startgame
-import { createStage } from "../gameHelpers";
+import { createStage, checkCollision } from "../gameHelpers";
 
 //Styled Components
 import { StyledTetrisWrapper, StyledTetris } from "./styles/StyledTetris";
@@ -25,7 +25,9 @@ const Tetris = () => {
   console.log("re-render");
 
   const movePlayer = dir => {
-    updatePlayerPos({ x: dir, y: 0 });
+    if (!checkCollision(player, stage, { x: dir, y: 0 })) {
+      updatePlayerPos({ x: dir, y: 0 });
+    }
   };
 
   const startGame = () => {
@@ -35,7 +37,9 @@ const Tetris = () => {
   };
 
   const drop = () => {
-    updatePlayerPos({ x: 0, y: 1, collided: false });
+    if (!checkCollision(player, stage, { x: 0, y: 1 })) {
+      updatePlayerPos({ x: 0, y: 1, collided: false });
+    }
   };
 
   const dropPlayer = () => {
