@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reactTetris/static/css/main.63b661c1.chunk.css",
-    "main.js": "/reactTetris/static/js/main.0383e35e.chunk.js",
-    "main.js.map": "/reactTetris/static/js/main.0383e35e.chunk.js.map",
-    "runtime~main.js": "/reactTetris/static/js/runtime~main.42e6cfc3.js",
-    "runtime~main.js.map": "/reactTetris/static/js/runtime~main.42e6cfc3.js.map",
-    "static/js/2.87f52bef.chunk.js": "/reactTetris/static/js/2.87f52bef.chunk.js",
-    "static/js/2.87f52bef.chunk.js.map": "/reactTetris/static/js/2.87f52bef.chunk.js.map",
-    "index.html": "/reactTetris/index.html",
-    "precache-manifest.c419e548a97a67f1d2c058a9369785ac.js": "/reactTetris/precache-manifest.c419e548a97a67f1d2c058a9369785ac.js",
-    "service-worker.js": "/reactTetris/service-worker.js",
-    "static/css/main.63b661c1.chunk.css.map": "/reactTetris/static/css/main.63b661c1.chunk.css.map",
-    "static/media/index.css": "/reactTetris/static/media/Pixel-LCD-7.e2897552.woff",
-    "static/media/bg.png": "/reactTetris/static/media/bg.2810fe6b.png"
+    "main.css": "/rtjae1/reactTetris/tree/master/react-tetris/static/css/main.93700faf.chunk.css",
+    "main.js": "/rtjae1/reactTetris/tree/master/react-tetris/static/js/main.ecb20a28.chunk.js",
+    "main.js.map": "/rtjae1/reactTetris/tree/master/react-tetris/static/js/main.ecb20a28.chunk.js.map",
+    "runtime~main.js": "/rtjae1/reactTetris/tree/master/react-tetris/static/js/runtime~main.ecd8d5e1.js",
+    "runtime~main.js.map": "/rtjae1/reactTetris/tree/master/react-tetris/static/js/runtime~main.ecd8d5e1.js.map",
+    "static/js/2.7beac1d3.chunk.js": "/rtjae1/reactTetris/tree/master/react-tetris/static/js/2.7beac1d3.chunk.js",
+    "static/js/2.7beac1d3.chunk.js.map": "/rtjae1/reactTetris/tree/master/react-tetris/static/js/2.7beac1d3.chunk.js.map",
+    "index.html": "/rtjae1/reactTetris/tree/master/react-tetris/index.html",
+    "precache-manifest.882c20855f7eceaf26009c209bcc516e.js": "/rtjae1/reactTetris/tree/master/react-tetris/precache-manifest.882c20855f7eceaf26009c209bcc516e.js",
+    "service-worker.js": "/rtjae1/reactTetris/tree/master/react-tetris/service-worker.js",
+    "static/css/main.93700faf.chunk.css.map": "/rtjae1/reactTetris/tree/master/react-tetris/static/css/main.93700faf.chunk.css.map",
+    "static/media/index.css": "/rtjae1/reactTetris/tree/master/react-tetris/static/media/Pixel-LCD-7.e2897552.woff",
+    "static/media/bg.png": "/rtjae1/reactTetris/tree/master/react-tetris/static/media/bg.2810fe6b.png"
   }
 }
