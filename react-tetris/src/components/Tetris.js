@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 
-// DO I NEED THIS??? it is connected to the startgame
 import { createStage, checkCollision } from "../gameHelpers";
 
-//Styled Components
+// Styled Components
 import { StyledTetrisWrapper, StyledTetris } from "./styles/StyledTetris";
 
 // Custom Hooks
 import { usePlayer } from "../hooks/usePlayer";
 import { useStage } from "../hooks/useStage";
 
-//Components
+// Components
 import Stage from "./Stage";
 import Display from "./Display";
 import StartButton from "./StartButton";
@@ -20,7 +19,7 @@ const Tetris = () => {
   const [gameOver, setGameOver] = useState(false);
 
   const [player, updatePlayerPos, resetPlayer] = usePlayer();
-  const [stage, setStage] = useStage(player);
+  const [stage, setStage] = useStage(player, resetPlayer);
 
   console.log("re-render");
 
@@ -31,14 +30,24 @@ const Tetris = () => {
   };
 
   const startGame = () => {
-    //Reset everything
+    console.log("test");
+    // Reset everything
     setStage(createStage());
     resetPlayer();
+    setGameOver(false);
   };
 
   const drop = () => {
     if (!checkCollision(player, stage, { x: 0, y: 1 })) {
       updatePlayerPos({ x: 0, y: 1, collided: false });
+    } else {
+      // Game Over
+      if (player.pos.y < 1) {
+        console.log("GAME OVER!!!");
+        setGameOver(true);
+        setDropTime(null);
+      }
+      updatePlayerPos({ x: 0, y: 0, collided: true });
     }
   };
 
