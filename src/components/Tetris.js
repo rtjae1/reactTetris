@@ -118,6 +118,12 @@ const Tetris = () => {
             </div>
           )}
           <StartButton callback={startGame} />
+          <div>
+            <p>
+              Click the start button for the game to begin. Use the left, right,
+              and down arrows to move. Use the up arrow to rotate the tetromino.
+            </p>
+          </div>
         </aside>
       </StyledTetris>
     </StyledTetrisWrapper>
