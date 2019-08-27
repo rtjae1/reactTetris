@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c80bf0aa0f893256ec855a54f1fab0b0",
+    "revision": "d3dcc5bd1a72eec20e3cb76f6ab399f4",
     "url": "/reactTetris/index.html"
   },
   {
-    "revision": "6080e5be9e4d1368aa1f",
+    "revision": "bd697e2280fec5bd4c1b",
     "url": "/reactTetris/static/css/main.63b661c1.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactTetris/static/js/2.87f52bef.chunk.js"
   },
   {
-    "revision": "6080e5be9e4d1368aa1f",
-    "url": "/reactTetris/static/js/main.0383e35e.chunk.js"
+    "revision": "bd697e2280fec5bd4c1b",
+    "url": "/reactTetris/static/js/main.3af1c72f.chunk.js"
   },
   {
     "revision": "a3c9f721c506aed5e79d",
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactTetris/static/media/Pixel-LCD-7.e2897552.woff"
   },
   {
-    "revision": "2810fe6b5435e75b3dad63e341b97d02",
-    "url": "/reactTetris/static/media/bg.2810fe6b.png"
+    "revision": "5b53530ad4bbfe6cb7a3cfc9d22bd54a",
+    "url": "/reactTetris/static/media/bg1.5b53530a.png"
   }
 ]);
